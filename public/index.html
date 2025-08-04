@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agente de Terminal IA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
+</head>
+<body>
+    <div id="chat-container">
+        <header>
+            <h1>Agente de Terminal IA</h1>
+            <div id="status-indicator" class="disconnected" title="Desconectado"></div>
+        </header>
+        <div id="messages">
+            <!-- As mensagens do chat aparecerão aqui -->
+        </div>
+        <form id="chat-form">
+            <input type="text" id="message-input" placeholder="Digite um comando ou tarefa..." autocomplete="off" required>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <script src="client.js"></script>
+</body>
+</html>
